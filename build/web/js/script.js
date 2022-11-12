@@ -35,10 +35,10 @@ function susMsj(msj){
 
 
 function limpiarFormulario(){
-    document.getElementById("Marca").value='';
-    document.getElementById("Modelo").value='';
-    document.getElementById("CantidadRam").value='';
-    document.getElementById("SistemaOperativo").value='';
+    document.getElementById("codigo").value='';
+    document.getElementById("nombre").value='';
+    document.getElementById("correo").value='';
+    document.getElementById("direccion").value='';
 }
 
 function mostrarMensaje(mensaje){

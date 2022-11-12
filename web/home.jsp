@@ -74,22 +74,22 @@
         <a href="NewServlet" > Click aqui </a><br><br>
         <form method="POST" id="form" name="form" action="NewServlet" >
             <div class="form-group">
-                <label for="exampleInputName">Marca</label>
-                <input class="form-control" type="text" placeholder="ingresar codigo" name="codigo" id="Marca" >
+                <label for="exampleInputName">Codigo</label>
+                <input class="form-control" type="text" placeholder="ingresar codigo" name="codigo" id="codigo" >
                 <input type="hidden" name="control" value="GUARDAR">
             </div>
             <div class="form-group">
-                <label for="exampleInputName">Modelo</label>
+                <label for="exampleInputName">Nombre del alumno</label>
                 <input class="form-control" type="text" placeholder="ingresar nombre" name="nombre"id="nombre" >
             </div>
             <div class="form-group">
-              <label for="exampleInputEmail1">Cantidad de Ram</label>
-              <input type="email" class="form-control"  aria-describedby="emailHelp" name="correo" id="cantidadderam"  >
-              <small id="emailHelp" class="form-text text-muted">RAM</small>
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control"  aria-describedby="emailHelp" name="correo" id="correo"  >
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Sistema Operativo</label>
-              <input type="text" class="form-control"  name="direccion" id="SistemaOP"  >
+              <label for="exampleInputPassword1">Direccion</label>
+              <input type="text" class="form-control"  name="direccion" id="direccion"  >
             </div>
             
             <button type="submit" class="btn btn-primary">Guardar</button>
@@ -103,10 +103,10 @@
                 <table class="table table-striped table-hover">
                     <thead class="table-dark">
                         <tr>
-                            <td> Marca</td>
-                            <td>Modelo</td>
-                            <td>Cantidad de Ram</td>
-                            <td>Sistema Operativo</td>
+                            <td>Codigo de Estudiante</td>
+                            <td>Nombre del Estudiante</td>
+                            <td>Dirección</td>
+                            <td>Correo Institucional</td>
                             <td>Acción</td>
                         </tr>
                     </thead>
